@@ -2,6 +2,6 @@
 	"gameName" : "MD: Evergreen County",
 	"version"  : "UNSTABLE 0.0.2",
   "updateName": "Pala Rework",
-	"datareset": "yes",
+	"dataReset": "yes",
 	"date"     : "06/30/2025"
 }
