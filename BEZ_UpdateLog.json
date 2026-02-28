@@ -2,6 +2,17 @@
   "VER_NUM": "2.0",
   "CHANGELOG": [
     "Road Builder Tool - Changelog",
+
+        "",
+    {
+      "title": "2.1",
+      "items": [
+        "Improved curve smoothing",
+        "Fixed stale status indicator",
+        "Adjusted UI spacing"
+      ]
+    },
+    
     "",
     {
       "title": "2.0",
