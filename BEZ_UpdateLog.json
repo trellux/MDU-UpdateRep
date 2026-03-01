@@ -17,8 +17,7 @@
           "Distance readout in the plotting dock showing total road length as you place points",
           "Expandable warnings with a pin highlight on the exact point causing a tight-curve issue",
           "All docks unified under a dark charcoal theme with animated status banners and warning rows",
-          "Help dock redesigned with a tabbed layout covering Workflow, Terminology, Warnings, Road Styles, and Credits",
-          "Changelog tab in Help showing live version status from GitHub, with a configurable refresh cooldown"
+          "Help dock redesigned with a tabbed layout covering Workflow, Terminology, Warnings, Road Styles, and Credits"
         ],
         "Improved": [
           "Superelevation transitions smoother and more consistent: overlapping zones blend instead of creasing, and S-curve reversals begin earlier",
