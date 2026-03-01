@@ -7,26 +7,27 @@
       "date": "February 28, 2026",
       "sections": {
         "New": [
-          "Clothoid transitions (Euler spirals) at the entry and exit of every curve, so curvature ramps in and out smoothly instead of jumping straight to full arc radius",
-          "Hairpin merging: overlapping rounded corners now resolve into a single clean hairpin shape instead of breaking",
+          "Surface-snapped point plotting: points snap to whatever surface you're aiming at, with a live cursor preview",
+          "Mid-air point placement: hold right-click while plotting to place a point at any height",
+          "Clothoid transitions at the entry and exit of every curve, so curvature ramps smoothly instead of jumping straight to full arc radius",
+          "Hairpin merging: overlapping rounded corners resolve into a clean hairpin instead of breaking",
           "Custom curvature mode rebuilt with speed-driven geometry: arcs widen at higher design speeds and tighten at lower ones",
-          "B-Spline elevation interpolation for smoother grade transitions along the vertical alignment",
+          "B-Spline elevation interpolation for smoother grade transitions",
           "Axis-lock point editing: lock movement to a single axis when adjusting a placed point",
-          "Hold right-click to place road points as an alternative to left-click",
-          "Distance readout in the plotting dock showing total road length while placing points",
-          "Expandable warning messages with a pin highlight showing exactly which point is causing a tight-curve issue",
+          "Distance readout in the plotting dock showing total road length as you place points",
+          "Expandable warnings with a pin highlight on the exact point causing a tight-curve issue",
           "All docks unified under a dark charcoal theme with animated status banners and warning rows",
-          "Help dock completely redesigned with a tabbed layout covering Workflow, Terminology, Warnings, Road Styles, and Credits",
+          "Help dock redesigned with a tabbed layout covering Workflow, Terminology, Warnings, Road Styles, and Credits",
           "Changelog tab in Help showing live version status from GitHub, with a configurable refresh cooldown"
         ],
         "Improved": [
-          "Superelevation transitions are smoother and more consistent: overlapping zones now blend instead of producing a crease, and reversals on S-curves begin earlier",
-          "Banking amplitude increased so road lean is more visible at typical design speeds",
+          "Superelevation transitions smoother and more consistent: overlapping zones blend instead of creasing, and S-curve reversals begin earlier",
+          "Banking amplitude increased for more visible road lean at typical design speeds",
           "Speed input range extended to 5–80",
-          "Unsaved changes indicator in Road Styles so it's always clear when your settings haven't been applied yet"
+          "Unsaved changes indicator in Road Styles so it's clear when settings haven't been applied"
         ],
         "Fixed": [
-          "Crash when clicking an existing road in the world to start a new one",
+          "Crash when clicking an existing road to start a new one",
           "Selection highlights lingering on roads after entering or exiting an edit mode",
           "Road Styles section blockers pushing content down instead of overlaying it"
         ]
