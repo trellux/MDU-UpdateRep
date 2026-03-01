@@ -1,34 +1,97 @@
 {
   "VER_NUM": "2.0",
   "CHANGELOG": [
-    "Changelog as of 2/28/2026 (MM/DD/YYYY)",
-
-        "",
     {
-      "title": "2.0 The Customization Update",
-      "items": [
-        "The Customization Update",
-        "Fixed stale status indicator",
-        "Adjusted UI spacing"
-      ]
+      "version": "2.0",
+      "date": "February 28, 2026",
+      "sections": {
+        "New": [
+          "Clothoid transitions (Euler spirals) at the entry and exit of every curve — curvature now ramps in and out smoothly instead of jumping straight to full arc radius",
+          "Hairpin merging: overlapping rounded corners now resolve into a single clean hairpin shape instead of breaking",
+          "Custom curvature mode rebuilt with speed-driven geometry — arcs widen at higher design speeds and tighten at lower ones",
+          "B-Spline elevation interpolation for smoother grade transitions along the vertical alignment",
+          "Axis-lock point editing — lock movement to a single axis when adjusting a placed point",
+          "Hold right-click to place road points as an alternative to left-click",
+          "Distance readout in the plotting dock showing total road length while placing points",
+          "Expandable warning messages with a pin highlight showing exactly which point is causing a tight-curve issue",
+          "All docks unified under a dark charcoal theme with animated status banners and warning rows",
+          "Help dock completely redesigned — tabbed layout with pages for Workflow, Terminology, Warnings, Road Styles, and Credits",
+          "Changelog tab in Help showing live version status from GitHub, with a configurable refresh cooldown"
+        ],
+        "Improved": [
+          "Superelevation transitions are smoother and more consistent — overlapping zones now blend instead of producing a crease, and reversals on S-curves begin earlier",
+          "Banking amplitude increased so road lean is more visible at typical design speeds",
+          "Speed input range extended to 5–80",
+          "Unsaved changes indicator in Road Styles so it's always clear when your settings haven't been applied yet"
+        ],
+        "Fixed": [
+          "Crash when clicking an existing road in the world to start a new one",
+          "Selection highlights lingering on roads after entering or exiting an edit mode",
+          "Road Styles section blockers pushing content down instead of overlaying it"
+        ]
+      }
     },
-    
-    "",
     {
-      "title": "2.0",
-      "items": [
-        "Improved curve smoothing",
-        "Fixed stale status indicator",
-        "Adjusted UI spacing"
-      ]
+      "version": "1.5",
+      "date": "December 25, 2025",
+      "note": "Initial GitHub release — first version published to the repository. No formal changelog.",
+      "sections": {}
     },
-    "",
     {
-      "title": "1.0",
-      "items": [
-        "1TEST1",
-        "TEST"
-      ]
+      "version": "1.0",
+      "date": "November 15, 2025",
+      "note": "Full release — too much changed to list individually; essentially a new plugin.",
+      "sections": {
+        "New": [
+          "Overhauled curve generation — introduced new Per-Segment mode",
+          "Overhauled road and embankment generation, now generated as triangles",
+          "Brand new UI",
+          "Reworked Sample"
+        ]
+      }
+    },
+    {
+      "version": "0.7",
+      "date": "November 3, 2025",
+      "note": "Changelog not recorded for this version.",
+      "sections": {}
+    },
+    {
+      "version": "0.5",
+      "date": "February 9, 2025",
+      "note": "Lane and Banking Update.",
+      "sections": {
+        "New": [
+          "Banking option",
+          "Dynamic Curve Strength option",
+          "Lane generation and options"
+        ],
+        "Improved": [
+          "Optimized code — lighter on road generation"
+        ]
+      }
+    },
+    {
+      "version": "0.1.5",
+      "note": "Elevation Changes.",
+      "sections": {
+        "New": [
+          "Suggested MPH at the tightest section (optional KM/H conversion)"
+        ],
+        "Improved": [
+          "Adjusted curve banking",
+          "Adjusted smoothing for banking"
+        ],
+        "Experimental": [
+          "Elevation change overhaul (SuperElevation and Transitions)"
+        ]
+      }
+    },
+    {
+      "version": "0.1",
+      "date": "September 17, 2024",
+      "note": "Initial release. Bezier curve road generation with basic settings and MPH safety suggestions.",
+      "sections": {}
     }
   ]
 }
