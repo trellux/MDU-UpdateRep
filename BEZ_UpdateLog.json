@@ -3,23 +3,24 @@
   "CHANGELOG": [
     {
       "version": "2.0",
+      "name": "The Geometry Update",
       "date": "February 28, 2026",
       "sections": {
         "New": [
-          "Clothoid transitions (Euler spirals) at the entry and exit of every curve — curvature now ramps in and out smoothly instead of jumping straight to full arc radius",
+          "Clothoid transitions (Euler spirals) at the entry and exit of every curve, so curvature ramps in and out smoothly instead of jumping straight to full arc radius",
           "Hairpin merging: overlapping rounded corners now resolve into a single clean hairpin shape instead of breaking",
-          "Custom curvature mode rebuilt with speed-driven geometry — arcs widen at higher design speeds and tighten at lower ones",
+          "Custom curvature mode rebuilt with speed-driven geometry: arcs widen at higher design speeds and tighten at lower ones",
           "B-Spline elevation interpolation for smoother grade transitions along the vertical alignment",
-          "Axis-lock point editing — lock movement to a single axis when adjusting a placed point",
+          "Axis-lock point editing: lock movement to a single axis when adjusting a placed point",
           "Hold right-click to place road points as an alternative to left-click",
           "Distance readout in the plotting dock showing total road length while placing points",
           "Expandable warning messages with a pin highlight showing exactly which point is causing a tight-curve issue",
           "All docks unified under a dark charcoal theme with animated status banners and warning rows",
-          "Help dock completely redesigned — tabbed layout with pages for Workflow, Terminology, Warnings, Road Styles, and Credits",
+          "Help dock completely redesigned with a tabbed layout covering Workflow, Terminology, Warnings, Road Styles, and Credits",
           "Changelog tab in Help showing live version status from GitHub, with a configurable refresh cooldown"
         ],
         "Improved": [
-          "Superelevation transitions are smoother and more consistent — overlapping zones now blend instead of producing a crease, and reversals on S-curves begin earlier",
+          "Superelevation transitions are smoother and more consistent: overlapping zones now blend instead of producing a crease, and reversals on S-curves begin earlier",
           "Banking amplitude increased so road lean is more visible at typical design speeds",
           "Speed input range extended to 5–80",
           "Unsaved changes indicator in Road Styles so it's always clear when your settings haven't been applied yet"
@@ -36,20 +37,20 @@
       "date": "December 25, 2025",
       "sections": {
         "New": [
-          "Point-and-click road placement — click points in the world to define the alignment, with a live curve preview as you plot",
-          "Point editor — drag placed points with 3D handles to refine the path after initial placement",
-          "Road Styles dock — save and load road configurations so settings can be reused across builds",
-          "Road connector — snap a new road onto the end of an existing one to continue an alignment"
+          "Point-and-click road placement: click points in the world to define the alignment, with a live curve preview as you plot",
+          "Point editor: drag placed points with 3D handles to refine the path after initial placement",
+          "Road Styles dock: save and load road configurations so settings can be reused across builds",
+          "Road connector: snap a new road onto the end of an existing one to continue an alignment"
         ]
       }
     },
     {
       "version": "1.0",
       "date": "November 15, 2025",
-      "note": "Full release — too much changed to list individually; essentially a new plugin.",
+      "note": "Full release. Too much changed to list individually; essentially a new plugin.",
       "sections": {
         "New": [
-          "Overhauled curve generation — introduced new Per-Segment mode",
+          "Overhauled curve generation, introducing the new Per-Segment mode",
           "Overhauled road and embankment generation, now generated as triangles",
           "Brand new UI",
           "Reworked Sample"
@@ -67,7 +68,7 @@
           "Lane generation and options"
         ],
         "Improved": [
-          "Optimized code — lighter on road generation"
+          "Optimized code for lighter road generation"
         ]
       }
     },
