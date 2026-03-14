@@ -3,29 +3,19 @@
   "CHANGELOG": [
     {
       "version": "2.0",
-      "name": "The UI Overhaul",
-      "date": "March 2026",
+      "name": "The Interaction Update",
+      "date": "March 13, 2026",
       "sections": {
         "New": [
-          "Tabbed Help dock with Getting Started, Terminology, Diagnostics, Changelog, and Credits pages",
-          "Live red polyline outline drawn while placing boundary points",
-          "Undo last placed point per phase via Z key",
-          "Point counter in the actions dock showing current phase count",
-          "PointEditor insert handles enabled for surface points to add points between existing ones",
-          "Unified dark UI theme",
-          "GitHub changelog refresh — Check for Updates button pulls the latest release notes"
+          "Point and click plotting: you can now plot points by pointing and clicking in the viewport",
+          "Plotted points information: track how many points, estimated triangles, and coverage area (in acres or hectares) will be generated",
+          "Per sub-triangle material and color selection: specify a different material and color for individual triangles",
+          "Edit later: return to an older terrain generation to add, remove, or adjust points (color and material editing coming later)",
+          "Attach to existing terrain: while plotting a new terrain, attach boundary points to an existing terrain generation",
+          "Settings tab: customizable plugin theme colors and unit options (Imperial / Metric) with individual controls"
         ],
         "Improved": [
-          "Phase flow simplified — outline confirmation goes directly to PointEditor",
-          "Plotting pause and resume removed; surface phase always in editor mode",
-          "Diagnostic messages repositioned to bottom-left of viewport",
-          "Actions dock auto-sizes to content with reduced sizing for a cleaner look",
-          "Even and odd point count check moved to surface confirm only"
-        ],
-        "Fixed": [
-          "Nil error crash on updateVisiblePointMarkers at startup",
-          "Button label truncation in actions dock for long text",
-          "Backdrop click accidentally closing the Help dock"
+          "Unified UI/UX design with CivilArc Road Toolkit"
         ]
       }
     },
@@ -52,7 +42,11 @@
       "note": "Initial release.",
       "sections": {
         "New": [
-          "Initial release — TIN terrain generation via Delaunay triangulation"
+          "Initial release — TIN terrain generation via Delaunay triangulation",
+          "Outline and surface point phases",
+          "WedgePart mesh generation and finalization",
+          "Terrain style dock with material and color pickers",
+          "Preview and regenerate workflow"
         ]
       }
     }
