@@ -1,0 +1,78 @@
+{
+  "VER_NUM": "2.0",
+  "CHANGELOG": [
+    {
+      "version": "2.0",
+      "name": "The Geometry Update",
+      "date": "February 28, 2026",
+      "sections": {
+        "New": [
+          "Surface-snapped point plotting: points snap to whatever surface you're aiming at, with a live cursor preview",
+          "Mid-air point placement: hold right-click while plotting to place a point at any height",
+          "Clothoid transitions at the entry and exit of every curve, so curvature ramps smoothly instead of jumping straight to full arc radius",
+          "Hairpin merging: overlapping rounded corners resolve into a clean hairpin instead of breaking",
+          "Custom curvature mode rebuilt with speed-driven geometry: arcs widen at higher design speeds and tighten at lower ones",
+          "B-Spline elevation interpolation for smoother grade transitions",
+          "Axis-lock point editing: lock movement to a single axis when adjusting a placed point",
+          "Distance readout in the plotting dock showing total road length as you place points",
+          "Expandable warnings with a pin highlight on the exact point causing a tight-curve issue",
+          "All docks unified under a dark charcoal theme with animated status banners and warning rows",
+          "Help dock redesigned with a tabbed layout covering Workflow, Terminology, Warnings, Road Styles, and Credits"
+        ],
+        "Improved": [
+          "Superelevation transitions smoother and more consistent: overlapping zones blend instead of creasing, and S-curve reversals begin earlier",
+          "Banking amplitude increased for more visible road lean at typical design speeds",
+          "Speed input range extended to 5–80",
+          "Unsaved changes indicator in Road Styles so it's clear when settings haven't been applied"
+        ],
+        "Fixed": [
+          "Crash when clicking an existing road to start a new one",
+          "Selection highlights lingering on roads after entering or exiting an edit mode",
+          "Road Styles section blockers pushing content down instead of overlaying it"
+        ]
+      }
+    },
+    {
+      "version": "1.5",
+      "name": "The Christmas Update",
+      "date": "December 25, 2025",
+      "sections": {
+        "New": [
+          "Point-and-click road placement: click points in the world to define the alignment, with a live curve preview as you plot",
+          "Point editor: drag placed points with 3D handles to refine the path after initial placement",
+          "Road Styles dock: save and load road configurations so settings can be reused across builds",
+          "Road connector: snap a new road onto the end of an existing one to continue an alignment"
+        ]
+      }
+    },
+    {
+      "version": "1.0",
+      "date": "November 15, 2025",
+      "note": "Full release. Too much changed to list individually; essentially a new plugin.",
+      "sections": {
+        "New": [
+          "Overhauled curve generation, introducing the new Per-Segment mode",
+          "Overhauled road and embankment generation, now generated as triangles",
+          "Brand new UI",
+          "Reworked Sample"
+        ]
+      }
+    },
+    {
+      "version": "0.5",
+      "date": "February 9, 2025",
+      "note": "Lane and Banking Update.",
+      "sections": {
+        "New": [
+          "Banking option",
+          "Dynamic Curve Strength option",
+          "Lane generation and options"
+        ],
+        "Improved": [
+          "Optimized code for lighter road generation"
+        ]
+      }
+    },
+    
+  ]
+}
