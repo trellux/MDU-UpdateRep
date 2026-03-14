@@ -1,6 +1,22 @@
 {
-  "VER_NUM": "2.0",
+  "VER_NUM": "2.1",
   "CHANGELOG": [
+    {
+      "version": "2.1",
+      "name": "The Interaction Update",
+      "date": "March 13, 2026",
+      "sections": {
+        "New": [
+          "Junction Tool: create intersections with a variety of configuration options",
+          "Line Connector: link road stripes together across segments",
+          "Settings tab: customizable plugin theme colors and unit options (Imperial ↔ Metric) with individual toggles per unit"
+        ],
+        "Updated": [
+          "Embankment: reworked to closer match real-life geometry, with selectable slope steepness and length",
+          "UI Unification: unified UI/UX design shared with TriTerrain"
+        ]
+      }
+    },
     {
       "version": "2.0",
       "name": "The Geometry Update",
@@ -17,7 +33,8 @@
           "Distance readout in the plotting dock showing total road length as you place points",
           "Expandable warnings with a pin highlight on the exact point causing a tight-curve issue",
           "All docks unified under a dark charcoal theme with animated status banners and warning rows",
-          "Help dock redesigned with a tabbed layout covering Workflow, Terminology, Warnings, Road Styles, and Credits"
+          "Help dock redesigned with a tabbed layout covering Workflow, Terminology, Warnings, Road Styles, and Credits",
+          "Changelog tab in Help showing live version status from GitHub, with a configurable refresh cooldown"
         ],
         "Improved": [
           "Superelevation transitions smoother and more consistent: overlapping zones blend instead of creasing, and S-curve reversals begin earlier",
