@@ -11,7 +11,7 @@
           "Line Connector: link road stripes together across segments",
           "Settings tab: customizable plugin theme colors and unit options (Imperial ↔ Metric) with individual toggles per unit"
         ],
-        "Updated": [
+        "Improved": [
           "Embankment: reworked to closer match real-life geometry, with selectable slope steepness and length",
           "UI Unification: unified UI/UX design shared with TriTerrain"
         ]
