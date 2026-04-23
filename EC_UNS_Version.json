@@ -1,7 +1,7 @@
 {
-"gameName": "Evergreen County",
-"version": "UNSTABLE 0.0.2",
-"updateName": "Fallbrook and Vista",
-"dataReset": "yes",
-"date": "09/01/2025"
+  "gameName": "Evergreen County",
+  "version": "UNSTABLE 0.0.2",
+  "updateName": "Fallbrook and Vista",
+  "updateDate": "04/30/2026",
+  "channel": "unstable"
 }
